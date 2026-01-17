@@ -17,6 +17,4 @@ def process_guess(letter, board, word):
         if w_letter[1] == letter:
             board[w_letter[0]] = w_letter[1]
             correct = True
-    if correct == False:
-        return correct
-    return board
+    return correct
